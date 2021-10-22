@@ -6,6 +6,6 @@ window.addEventListener('keydown', (e) => {
     	}
 });
 // if the windows has been resized call 'windowResized' to reload the page
-//	window.addEventListener('resize', windowResized);	
+window.addEventListener('resize', windowResized);	
 // disable right click context menu
 document.addEventListener('contextmenu', event => event.preventDefault());
